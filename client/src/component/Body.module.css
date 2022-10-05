@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.h1 {
+    text-align: center;
+    background-color: #26a69a;
+    color: white;
+    height: 100px;
+    line-height: 185%;
+    font-size: 60px;
+    font-weight :500;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight :500;
+}
+
+.calender {
+    width: 700px;
+    margin: 50px;
+}
+
+.recentWord {
+    width: 700px;
+    margin: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+}
+
+.yearmonth {
+    font-size: 35px;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.navbtn {
+    width: 28px;
+    height: 30px;
+    border: 16px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.gotoday {
+    height: 30px;
+    border: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    width: 75px;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+.todays{
+    display: flexbox;
+    font-size: 19px;
+    margin : 15px 0 13px 560px;
+}
+
+.recent {
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+

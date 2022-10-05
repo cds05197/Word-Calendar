@@ -1,0 +1,43 @@
+.word {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    line-height: 500%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+span {
+    width: calc(100% / 3);
+    text-align: center;
+    font-size: 22px;
+}
+.remove {
+    color: white;
+    background-color: crimson;
+    border-style: none;
+    margin-left: 2%;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.update {
+        color: white;
+        background-color: #42a5f5;
+        border-style: none;
+        width: 80px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 22px;
+}
+
+.folder {
+    color: white;
+    background-color: #51f542;
+    border-style: none;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 22px;
+}

@@ -1,0 +1,84 @@
+.container {
+    width: 800px;
+    min-height: 866px;
+    margin: 0em;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+h1 {
+    top : 5%;
+    font-size: 350%;
+    width: 100%;
+    margin: 0;
+
+}
+.goback {
+    background-color: #efdcd5;
+    width: 130px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    margin: 4% 0 3% 0;
+    margin-right: 2%;
+}
+
+.home {
+    width: 130px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(38, 126, 26, 0.7);
+    border-style: none;
+    border-radius: 15px;
+    margin: 4% 0 3% 0;
+    margin-right: 2%;
+}
+
+.add {
+    width: 130px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(26,35,126,0.7);
+    border-style: none;
+    border-radius: 15px;
+    margin: 4% 0 3% 0;
+}
+
+.cate {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    line-height: 500%;
+    font-weight: bold;
+}
+
+span {
+    width: calc(100% / 3);
+    text-align: center;
+    font-size: 22px;
+}
+
+@media (min-width: 1700px)
+{
+    .goback {
+        top: 5%;
+        left: 27.5%;
+        
+    }
+}
+@media (max-width: 850px)
+{
+    .goback {
+        top: 5%;
+        left: 3%;
+        
+    }
+}

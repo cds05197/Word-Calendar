@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: left;
+    font-weight: 500;
+}
+.yearmonth {
+    font-size: 40px;
+}
+
+.days {
+    display: flex;
+    margin: 25px 0 10px;
+    font-weight: bold;
+}
+
+.day {
+    width: calc(100% / 7);
+    text-align: center;
+}
+
+.dates {
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    font-weight: bold;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.date {
+    width: calc(100% / 7);
+    padding: 15px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 15px;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+
+.day:nth-child(7n + 1),
+.date:nth-child(7n + 1) {
+    color: crimson;
+}
+
+.day:nth-child(7n),
+.date:nth-child(7n) {
+    color: rgb(87, 87, 228);
+}
+
+

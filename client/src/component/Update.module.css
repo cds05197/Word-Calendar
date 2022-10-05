@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'adobaonlyR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/adobaonlyR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .back {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title {
+    display: flexbox;
+    font-size: 2.4em;
+    line-height: 100%;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+  }
+  .login {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+    .input {
+      font-size: 20px;
+      font-family: 'adobaonlyR';
+      font-weight: bold;
+      height: 30pxx;
+      display: flexbox;
+      width: 480px;
+      text-align: left;
+      background-color: #e0e0e0;
+      margin: 12px 0;
+      border-style: none;
+      padding: 11px 0px 11px 10px;
+      border-radius: 4px;
+    }
+    input::placeholder {
+      color: #9e9e9e;
+    }
+    .btn {
+      font-size: 24px;
+      font-family: 'adobaonlyR';
+      font-weight: bold;
+      height: 50px;
+      display: flexbox;
+      width: 490px;
+      text-align: center;
+      background-color: rgba(25, 118, 210, 0.663);
+      color: white;
+      margin: 12px 0 4px 0;
+      border-style: none;
+      padding: 11px 0px 11px 10px;
+      border-radius: 4px;
+    }
